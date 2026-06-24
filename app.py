@@ -8,7 +8,7 @@ from pathlib import Path
 # (rename your original file to pipeline.py if it's still called dashboard_app.py)
 from pipeline import run_phase9, STOCKS, FORECAST_HORIZONS, HORIZON_COLORS, MIN_TRAIN_MONTHS
 
-OUTPUT_DIR = Path("pipeline_outputs")
+OUTPUT_DIR = Path("pipeline_outputs_v1")
 ANNUAL_RISK_FREE = 0.065
 
 # ─── Load all saved outputs ───────────────────────────────────────────
